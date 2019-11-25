@@ -6,7 +6,7 @@
 ;~ // author: wuuyi123
 ;~ #NoTrayIcon
 #include 'cefau3/cefau3.au3'
-
+TraySetState(2)
 ; start Cefau3
 global $cef = CefStart(default)
 
